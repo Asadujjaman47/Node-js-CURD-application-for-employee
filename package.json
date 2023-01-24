@@ -1,0 +1,17 @@
+{
+  "name": "6sense",
+  "version": "1.0.0",
+  "description": "CURD application for track employee records.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": "https://github.com/Asadujjaman47/CURD-application.git",
+  "author": "Asif Inc",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "nodemon": "^2.0.20"
+  }
+}
