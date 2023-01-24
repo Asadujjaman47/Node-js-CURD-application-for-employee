@@ -56,7 +56,7 @@ app.get('/employee/:id', (req, res) => {
     })
 })
 
-// update employee details(without email fields)
+// update employee details
 app.patch('/employee/:id', (req, res) => {
     // remove the email field from the request body
     delete req.body.email;
