@@ -1,9 +1,12 @@
-const express = require('express')
-const mongoose = require('mongoose')
-const bodyParser = require('body-parser')
+const express = require('express');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+const cors = require("cors");
 
 const app = express()
-app.use(bodyParser.json())
+
+app.use(bodyParser.json());
+app.use(cors());
 
 // Connect to MongoDB
 mongoose.set('strictQuery', true); // for prevent warning
